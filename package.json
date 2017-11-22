@@ -1,0 +1,22 @@
+{
+  "name": "my_npms",
+  "version": "1.0.0",
+  "description": "> 每天10个npm包学习记录",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdleyTales/my_npms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdleyTales/my_npms/issues"
+  },
+  "homepage": "https://github.com/AdleyTales/my_npms#readme",
+  "devDependencies": {
+    "axios": "^0.17.1"
+  }
+}
