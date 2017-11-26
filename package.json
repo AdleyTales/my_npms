@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/AdleyTales/my_npms#readme",
   "devDependencies": {
-    "axios": "^0.17.1"
+    "axios": "^0.17.1",
+    "chalk": "^2.3.0",
+    "debug": "^3.1.0",
+    "log4js": "^2.3.12",
+    "moment": "^2.19.2"
   }
 }
