@@ -5,12 +5,19 @@
 
 ## 2017年11月22日 星期三:
 
+
     1. axios： 基于promise http请求数据
+    2. express: nodejs server最简单，很成熟的框架
+
+## 2017年11月23日 星期四：
+
+    1. morgan: 可以做日志分析，记录用户访问的记录。用于分析用户的浏览器，操作系统，请求哪些内容。同nginx日志记录。
 
 ## 2017年11月24日 星期五：
 
     1. colors: 命令行彩色输出
     2. glob: 匹配文件名，查找文件名
+    3. nodemon: node自动重启 cnpm i -g nodemon  使用的时候：nodemon aaa.js 【good】
 
 ## 2017年11月25日 星期六：
 

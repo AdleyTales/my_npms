@@ -21,10 +21,13 @@
     "chalk": "^2.3.0",
     "colors": "^1.1.2",
     "debug": "^3.1.0",
+    "express": "^4.16.2",
     "glob": "^7.1.2",
     "hapi": "^17.1.1",
     "log4js": "^2.3.12",
     "moment": "^2.19.2",
-    "nodemailer": "^4.4.0"
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.4.0",
+    "nodemon": "^1.12.1"
   }
 }
