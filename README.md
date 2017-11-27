@@ -21,3 +21,5 @@
 ## 2017年11月27日 星期一：
 
     1. nodemailer: 利用nodejs发送邮件
+    2. http-server: 启动服务器server
+    3. browser-sync：启动服务器，并同步，实时更新
