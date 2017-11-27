@@ -17,3 +17,7 @@
     1. request: 发送http请求，获取页面数据。
     2. cheerio: 类似jquery的语法，操作dom，选取元素。
     3. chalk: 命令行彩色输出
+
+## 2017年11月27日 星期一：
+
+    1. nodemailer: 利用nodejs发送邮件
