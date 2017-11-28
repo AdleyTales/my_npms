@@ -36,3 +36,14 @@
     1. nodemailer: 利用nodejs发送邮件
     2. http-server: 启动服务器server
     3. browser-sync：启动服务器，并同步，实时更新
+
+## 2017年11月28日 星期二： Gulp包系列
+
+    1. gulp: 前端自动化工具 ******** gulp.task pipe pump gulp.dest gulp.watch gulp自带watch方法
+    2. gulp-concat: 将代码进行合并 几个文件合并成一个文件
+    3. gulp-uglify: 压缩代码
+    4. pump: 将所有的数据流pipes放在一个里面，不用每次都写pipe函数。
+    5. gulp-babel: 编译es6的语法
+    6. babel-core: 使用babel需要引入babel-core
+    7. babel-preset-es2015: babel编译es2015
+    8.
