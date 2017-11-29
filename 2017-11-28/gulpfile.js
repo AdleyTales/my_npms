@@ -4,6 +4,7 @@ const uglify = require('gulp-uglify');
 const pump = require('pump');
 const babel = require('gulp-babel');
 const watch = require('gulp-watch');
+const htmlmin = require('htmlmin');
 
 // 合并
 gulp.task('javascript',() => {
@@ -38,6 +39,26 @@ gulp.task('watches6',() => {
   gulp.watch('lib/es6.js',['es6']);
 });
 
+// 压缩html文件
+gulp.task('minHtml',() => {
+    var options = {
+        removeComments: true,//清除HTML注释
+        collapseWhitespace: true,//压缩HTML
+        collapseBooleanAttributes: true,//省略布尔属性的值 <input checked="true"/> ==> <input />
+        removeEmptyAttributes: true,//删除所有空格作属性值 <input id="" /> ==> <input />
+        removeScriptTypeAttributes: true,//删除<script>的type="text/javascript"
+        removeStyleLinkTypeAttributes: true,//删除<style>和<link>的type="text/css"
+        minifyJS: true,//压缩页面JS
+        minifyCSS: true//压缩页面CSS
+    };
+
+    gulp.src('html/*.html')
+      .pipe(htmlmin(options))
+      .pipe(gulp.dest('dist/html'));
+
+});
+
 // gulp.task('default',['javascript','cpmpress']);
 // gulp.task('default',['es6']);
-gulp.task('default',['es6','watches6']);
+// gulp.task('default',['es6','watches6']);
+gulp.task('default',['minHtml']);

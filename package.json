@@ -28,6 +28,7 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
     "hapi": "^17.1.1",
@@ -36,6 +37,7 @@
     "morgan": "^1.9.0",
     "nodemailer": "^4.4.0",
     "nodemon": "^1.12.1",
+    "npm-user-downloads": "^1.2.0",
     "pump": "^1.0.3"
   }
 }

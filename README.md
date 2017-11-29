@@ -12,6 +12,7 @@
 ## 2017年11月23日 星期四：
 
     1. morgan: 可以做日志分析，记录用户访问的记录。用于分析用户的浏览器，操作系统，请求哪些内容。同nginx日志记录。
+    2. npm-user-dowmloads  cnpm i npm-user-downloads -g 
 
 ## 2017年11月24日 星期五：
 
@@ -46,4 +47,4 @@
     5. gulp-babel: 编译es6的语法
     6. babel-core: 使用babel需要引入babel-core
     7. babel-preset-es2015: babel编译es2015
-    8.
+    8. gulp-htmlmin: 压缩html的页面
