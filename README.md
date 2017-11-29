@@ -12,7 +12,7 @@
 ## 2017年11月23日 星期四：
 
     1. morgan: 可以做日志分析，记录用户访问的记录。用于分析用户的浏览器，操作系统，请求哪些内容。同nginx日志记录。
-    2. npm-user-dowmloads  cnpm i npm-user-downloads -g 
+    2. npm-user-dowmloads  cnpm i npm-user-downloads -g
 
 ## 2017年11月24日 星期五：
 
@@ -47,4 +47,12 @@
     5. gulp-babel: 编译es6的语法
     6. babel-core: 使用babel需要引入babel-core
     7. babel-preset-es2015: babel编译es2015
-    8. gulp-htmlmin: 压缩html的页面
+
+## 2017年11月29日 星期三： Webpack系列
+
+    1. webpack: 模块打包器
+    2. html-webpack-plugin： 为html文件中引入的外部资源如script、link动态添加每次compile后的hash，防止引用缓存的外部文件问题 可以生成创建html入口文件，比如单页面可以生成一个html文件入口，配置N个html-webpack-plugin可以生成N个页面入口。生成html文件。
+    3. webpack-dev-server: 启动一个server 利用express实现小型的服务器 socket.io
+    4. css-loader: 编译css的字符串 css代码
+    5. style-loader: 将css代码放入到style标签内。css in js
+    6. image-webpack-loader：
