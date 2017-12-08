@@ -56,3 +56,7 @@
     4. css-loader: 编译css的字符串 css代码
     5. style-loader: 将css代码放入到style标签内。css in js
     6. image-webpack-loader：
+
+## 2017年12月8日 星期五：
+	
+	1.now.js 处理时间戳的包
